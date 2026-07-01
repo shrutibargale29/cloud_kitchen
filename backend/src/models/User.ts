@@ -46,21 +46,7 @@ User.init(
       defaultValue: ApprovalStatus.PENDING,
     },
 
-    rejectionReason: {
-      type: DataTypes.STRING,
-      allowNull: true,
-    },
-
-    restaurantName: {
-      type: DataTypes.STRING,
-      allowNull: true,
-    },
-
-    restaurantAddress: {
-      type: DataTypes.STRING,
-      allowNull: true,
-    },
-  },
+},
   {
     sequelize,
     tableName: "users",
